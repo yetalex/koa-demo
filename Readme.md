@@ -48,3 +48,12 @@
 * src/tests/  用于路由/API测试
 * 单元测试就近放置，与被测文件同目录，命名xxx.test.ts或者放在同级__test__
 * 端到端测试可以在根目录新建tests/
+
+### 上传到github
+
+1. github上创建项目
+2. git remote add origin  ***.git
+3. git fetch origin
+   git rebase origin/main
+
+前提是你已经使用ssh能连接上github
