@@ -36,6 +36,12 @@
 * config/ : 集中读取.env,导出强类型配置，避免到处读环境变量。
 * types/ : 扩展Koa Context、业务类型
 
+#### 可选增强
+
+  * 加eslint + prettier保持风格统一
+  * dotenv加载.env，并用zod校验配置
+  * 单元测试目录tests/, 用vitest或jest
+
 ### 脚本与运行
 
 * 继续使用tsx + ESM:
